@@ -560,6 +560,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.ml-2{
+  margin-left: 0.5rem;
+}
+
 .mt-12{
   margin-top: 3rem;
 }
@@ -568,24 +572,12 @@ video {
   margin-top: 2rem;
 }
 
-.ml-2{
-  margin-left: 0.5rem;
-}
-
 .flex{
   display: flex;
 }
 
-.justify-end{
-  justify-content: flex-end;
-}
-
 .justify-center{
   justify-content: center;
-}
-
-.gap-2{
-  gap: 0.5rem;
 }
 
 .border-b{
@@ -669,4 +661,10 @@ video {
 .text-secondary-200{
   --tw-text-opacity: 1;
   color: rgb(136 136 131 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px){
+  .md\:justify-end{
+    justify-content: flex-end;
+  }
 }
